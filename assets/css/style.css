@@ -111,6 +111,7 @@ nav {
 
 nav .logo {
   margin-left: 45px;
+  cursor: pointer;
 }
 
 nav input {
@@ -132,6 +133,7 @@ nav ul {
 nav ul li {
   list-style: none;
   margin-right: 76px;
+  cursor: pointer;
 }
 
 .card1 {
@@ -252,6 +254,7 @@ footer {
           align-items: center;
   background-color: #F8F8F8;
   border-top: 2px solid #03a9f4;
+  bottom: 0;
 }
 
 footer div {
