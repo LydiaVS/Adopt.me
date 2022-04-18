@@ -14,6 +14,28 @@ h2 {
   margin: 2% 9% 0% 9%;
 }
 
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #03a9f4;
+  cursor: pointer;
+  margin: 1% 0;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #a4a4a4;
+  cursor: pointer;
+  margin: 3% 0% 2% 88%;
+}
+
+h4:hover {
+  color: #000;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -210,5 +232,29 @@ nav ul li {
 .list-dog .btn2 {
   margin: 12% 0% 0% 12%;
   position: absolute;
+}
+
+.orejas {
+  width: 30%;
+  margin-left: 33em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F8F8F8;
+  border-top: 2px solid #03a9f4;
+}
+
+footer div {
+  margin-bottom: 2%;
 }
 /*# sourceMappingURL=style.css.map */
