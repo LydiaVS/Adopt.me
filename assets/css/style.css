@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #03a9f4;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #03a9f4;
+  margin: 2% 9% 0% 9%;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #F8F8F8;
+}
+
+.btn2 {
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  height: 2em;
+  width: 2em;
+  background-color: #F8F8F8;
+}
+
+ul {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #03a9f4;
+}
+
+* {
+  margin: 0;
+}
+
+.btn1 {
+  background-color: #F8F8F8;
+  border-radius: 20px;
+  border: none;
+  width: 165px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn2 {
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn2 .like {
+  position: absolute;
+  margin: -24% 6% 0% -30%;
+}
+
+.btn2:hover .like {
+  fill: #03a9f4;
+}
+
+nav {
+  background-color: #F8F8F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 2px solid #03a9f4;
+}
+
+nav .logo {
+  margin-left: 45px;
+}
+
+nav input {
+  border-radius: 20px;
+  border: 2px solid #03a9f4;
+  height: 30px;
+  width: 190px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 76px;
+}
+
+.card1 {
+  background-color: #8ED2F0;
+  margin-top: 90px;
+  margin-left: 8em;
+  width: 85%;
+  height: 17em;
+  border-radius: 50px;
+}
+
+.card1 h2 {
+  margin: 2% 3%;
+  position: absolute;
+  color: white;
+}
+
+.card1 p {
+  color: white;
+  position: absolute;
+  margin: 6% 3%;
+}
+
+.card1 .btn1 {
+  background-color: #F8F8F8;
+  border-radius: 20px;
+  border: none;
+  width: 165px;
+  height: 50px;
+  margin: 15% 0% 0% 50%;
+}
+
+.card1 .btn1:hover {
+  border: 2px solid #000;
+}
+
+.card1 .img1 {
+  width: 28%;
+  position: absolute;
+  margin: -7% 0% 0% 3%;
+}
+
+.card2 {
+  background-color: #03a9f4;
+  margin-top: 140px;
+  margin-left: 8em;
+  width: 85%;
+  height: 17em;
+  border-radius: 50px;
+}
+
+.card2 .btn1 {
+  margin: 15% 0% 0% 80%;
+}
+
+.card2 .btn1:hover {
+  border: 2px solid #000;
+}
+
+.card2 h2 {
+  margin: 3% 9% 0% 33%;
+  position: absolute;
+  color: white;
+}
+
+.card2 p {
+  color: white;
+  position: absolute;
+  margin: 7% 10% 0% 33%;
+}
+
+.card2 .img2 {
+  width: 22%;
+  position: absolute;
+  margin: -4% 0% 0% 4%;
+}
+
+.list-dog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5% 3% 0% 5%;
+}
+
+.list-dog .dog {
+  background-color: gray;
+  border-radius: 30px;
+  width: 15em;
+  height: 15em;
+}
+
+.list-dog .btn2 {
+  margin: 12% 0% 0% 12%;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
