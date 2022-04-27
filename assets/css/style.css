@@ -69,29 +69,6 @@ ul {
   margin: 0;
 }
 
-.btn1 {
-  background-color: #F8F8F8;
-  border-radius: 20px;
-  border: none;
-  width: 165px;
-  height: 50px;
-  cursor: pointer;
-}
-
-.btn2 {
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.btn2 .like {
-  position: absolute;
-  margin: -24% 6% 0% -30%;
-}
-
-.btn2:hover .like {
-  fill: #03a9f4;
-}
-
 nav {
   background-color: #F8F8F8;
   display: -webkit-box;
@@ -134,6 +111,10 @@ nav ul li {
   list-style: none;
   margin-right: 76px;
   cursor: pointer;
+}
+
+nav ul li:hover .like {
+  fill: #03a9f4;
 }
 
 .card1 {
@@ -225,7 +206,13 @@ nav ul li {
 }
 
 .list-dog .dog {
-  background-color: gray;
+  border-radius: 30px;
+  width: 15em;
+  height: 15em;
+}
+
+.list-dog .dog .dog-img {
+  position: absolute;
   border-radius: 30px;
   width: 15em;
   height: 15em;
@@ -259,5 +246,50 @@ footer {
 
 footer div {
   margin-bottom: 2%;
+}
+
+.btn1 {
+  background-color: #F8F8F8;
+  border-radius: 20px;
+  border: none;
+  width: 165px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn2 {
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn2 .like {
+  position: absolute;
+  margin: -24% 6% 0% -30%;
+}
+
+.btn2:hover .like {
+  fill: #03a9f4;
+}
+
+.lista {
+  margin: 5% 3% 0% 5%;
+  list-style: none;
+}
+
+.lista li {
+  border-radius: 30px;
+  width: 15em;
+  height: 15em;
+}
+
+.lista li span {
+  padding: 1em;
+}
+
+.lista li img {
+  position: absolute;
+  border-radius: 30px;
+  width: 15em;
+  height: 15em;
 }
 /*# sourceMappingURL=style.css.map */
