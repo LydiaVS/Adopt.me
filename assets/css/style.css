@@ -299,4 +299,9 @@ footer div {
   width: 15em;
   height: 15em;
 }
+
+.lista li .btn2 {
+  margin: 12% 0% 0% 12%;
+  position: absolute;
+}
 /*# sourceMappingURL=style.css.map */
