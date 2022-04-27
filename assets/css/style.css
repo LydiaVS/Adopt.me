@@ -272,11 +272,18 @@ footer div {
 }
 
 .lista {
-  margin: 5% 3% 0% 5%;
+  margin: 5% 3% 8% 5%;
   list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .lista li {
+  cursor: pointer;
   border-radius: 30px;
   width: 15em;
   height: 15em;

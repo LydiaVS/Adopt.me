@@ -1,8 +1,13 @@
 .lista
 
-    margin: 5% 3% 0% 5%
+    margin: 5% 3% 8% 5%
     list-style: none
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 32px
+    grid-auto-rows: minmax(100px, auto)
     li
+        cursor: pointer
         border-radius: 30px
         width: 15em
         height: 15em
