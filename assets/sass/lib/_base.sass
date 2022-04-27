@@ -7,9 +7,13 @@ nav
     align-items: center
     justify-content: space-around
     border-bottom: 2px solid rgba(3, 169, 244, 1)
+    
+        
     .logo
         margin-left: 45px
         cursor: pointer
+        @media screen and (min-width : 300px) and(max-width : 850px)
+            margin-left: 10px
     input
         border-radius: 20px
         border: 2px solid rgba(3, 169, 244, 1)
@@ -22,6 +26,8 @@ nav
             list-style: none
             margin-right: 76px
             cursor: pointer
+            @media screen and (min-width : 300px) and(max-width : 850px)
+                margin-right: 10%
             &:hover
                 .like
                     fill: rgba(3, 169, 244, 1)
@@ -97,6 +103,8 @@ nav
 .orejas
     width: 30%
     margin-left: 33em
+    @media screen and (min-width : 300px) and(max-width : 850px)
+        display: none
 footer
     display: flex
     flex-direction: column

@@ -11,13 +11,25 @@
         border-radius: 30px
         width: 15em
         height: 15em
-        span
-            padding: 1em
         img
             position: absolute
             border-radius: 30px
             width: 15em
             height: 15em
+            &:hover
+                transform: scale(1.1)
+
         .btn2
             margin: 12% 0% 0% 12%
             position: absolute
+.fav-list
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 12% 0% 12% 0%
+    .btn1
+        background-color: #8ED2F0
+        &:hover
+            background-color: rgba(3, 169, 244, 1)
+    h2
+        margin: 2% 9% 2% 9%

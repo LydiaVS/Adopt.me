@@ -6,12 +6,24 @@ h1 {
   color: #03a9f4;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #03a9f4;
   margin: 2% 9% 0% 9%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  h2 {
+    font-size: 20px;
+  }
 }
 
 h3 {
@@ -21,6 +33,12 @@ h3 {
   color: #03a9f4;
   cursor: pointer;
   margin: 1% 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  h3 {
+    font-size: 10px;
+  }
 }
 
 h4 {
@@ -42,11 +60,23 @@ p {
   font-size: 20px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  p {
+    font-size: 10px;
+  }
+}
+
 .btn1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
   background-color: #F8F8F8;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .btn1 {
+    font-size: 15px;
+  }
 }
 
 .btn2 {
@@ -91,6 +121,12 @@ nav .logo {
   cursor: pointer;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  nav .logo {
+    margin-left: 10px;
+  }
+}
+
 nav input {
   border-radius: 20px;
   border: 2px solid #03a9f4;
@@ -111,6 +147,12 @@ nav ul li {
   list-style: none;
   margin-right: 76px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  nav ul li {
+    margin-right: 10%;
+  }
 }
 
 nav ul li:hover .like {
@@ -228,6 +270,12 @@ nav ul li:hover .like {
   margin-left: 33em;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .orejas {
+    display: none;
+  }
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,10 +337,6 @@ footer div {
   height: 15em;
 }
 
-.lista li span {
-  padding: 1em;
-}
-
 .lista li img {
   position: absolute;
   border-radius: 30px;
@@ -300,8 +344,39 @@ footer div {
   height: 15em;
 }
 
+.lista li img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .lista li .btn2 {
   margin: 12% 0% 0% 12%;
   position: absolute;
+}
+
+.fav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 12% 0% 12% 0%;
+}
+
+.fav-list .btn1 {
+  background-color: #8ED2F0;
+}
+
+.fav-list .btn1:hover {
+  background-color: #03a9f4;
+}
+
+.fav-list h2 {
+  margin: 2% 9% 2% 9%;
 }
 /*# sourceMappingURL=style.css.map */
