@@ -54,6 +54,13 @@ h4:hover {
   color: #000;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  h4 {
+    font-size: 15px;
+    margin: 3% 0% 2% 70%;
+  }
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -95,8 +102,43 @@ ul {
   color: #03a9f4;
 }
 
+label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #03a9f4;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  label {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
+}
+
+.movil {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .movil {
+    border-top: 2px solid #03a9f4;
+    border-bottom: 0;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .movil svg {
+    margin: 2% 0% 2% 0%;
+  }
 }
 
 nav {
@@ -123,7 +165,7 @@ nav .logo {
 
 @media screen and (min-width: 300px) and (max-width: 850px) {
   nav .logo {
-    margin-left: 10px;
+    margin-left: 60px;
   }
 }
 
@@ -134,6 +176,13 @@ nav input {
   width: 190px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  nav input {
+    height: 20px;
+    width: 100px;
+  }
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,6 +190,12 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  nav ul {
+    display: none;
+  }
 }
 
 nav ul li {
@@ -168,16 +223,38 @@ nav ul li:hover .like {
   border-radius: 50px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 85%;
+    height: 10em;
+    border-radius: 20px;
+  }
+}
+
 .card1 h2 {
   margin: 2% 3%;
   position: absolute;
   color: white;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card1 h2 {
+    margin: 7% 3%;
+  }
+}
+
 .card1 p {
   color: white;
   position: absolute;
   margin: 6% 3%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card1 p {
+    display: none;
+  }
 }
 
 .card1 .btn1 {
@@ -193,10 +270,25 @@ nav ul li:hover .like {
   border: 2px solid #000;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card1 .btn1 {
+    width: 100px;
+    height: 40px;
+    margin: 20% 20% 2% 3%;
+  }
+}
+
 .card1 .img1 {
   width: 28%;
   position: absolute;
   margin: -7% 0% 0% 3%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card1 .img1 {
+    margin: 7% 0% 0% -4%;
+    width: 38%;
+  }
 }
 
 .card2 {
@@ -208,6 +300,16 @@ nav ul li:hover .like {
   border-radius: 50px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card2 {
+    margin-top: 28px;
+    margin-left: 20px;
+    width: 85%;
+    height: 10em;
+    border-radius: 20px;
+  }
+}
+
 .card2 .btn1 {
   margin: 15% 0% 0% 80%;
 }
@@ -216,10 +318,24 @@ nav ul li:hover .like {
   border: 2px solid #000;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card2 .btn1 {
+    width: 100px;
+    height: 40px;
+    margin: 30% 0% 0% 50%;
+  }
+}
+
 .card2 h2 {
   margin: 3% 9% 0% 33%;
   position: absolute;
   color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card2 h2 {
+    margin: 5% 9% 0% 40%;
+  }
 }
 
 .card2 p {
@@ -228,10 +344,23 @@ nav ul li:hover .like {
   margin: 7% 10% 0% 33%;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card2 p {
+    display: none;
+  }
+}
+
 .card2 .img2 {
   width: 22%;
   position: absolute;
   margin: -4% 0% 0% 4%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .card2 .img2 {
+    width: 35%;
+    margin: 8% 0% 0% 4%;
+  }
 }
 
 .list-dog {
@@ -247,10 +376,27 @@ nav ul li:hover .like {
   margin: 5% 3% 0% 5%;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list-dog {
+    margin: 10% 0% 0% 25%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .list-dog .dog {
   border-radius: 30px;
   width: 15em;
   height: 15em;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list-dog .dog {
+    width: 10em;
+    height: 10em;
+  }
 }
 
 .list-dog .dog .dog-img {
@@ -260,9 +406,22 @@ nav ul li:hover .like {
   height: 15em;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list-dog .dog .dog-img {
+    width: 10em;
+    height: 10em;
+  }
+}
+
 .list-dog .btn2 {
   margin: 12% 0% 0% 12%;
   position: absolute;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list-dog .btn2 {
+    margin: 30% 0% 0% 30%;
+  }
 }
 
 .orejas {
@@ -296,6 +455,12 @@ footer div {
   margin-bottom: 2%;
 }
 
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  footer {
+    display: none;
+  }
+}
+
 .btn1 {
   background-color: #F8F8F8;
   border-radius: 20px;
@@ -319,7 +484,7 @@ footer div {
   fill: #03a9f4;
 }
 
-.lista {
+.list {
   margin: 5% 3% 8% 5%;
   list-style: none;
   display: -ms-grid;
@@ -330,28 +495,58 @@ footer div {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.lista li {
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20% 0% 20% 5%;
+    padding: 0;
+  }
+}
+
+.list li {
   cursor: pointer;
   border-radius: 30px;
   width: 15em;
   height: 15em;
 }
 
-.lista li img {
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list li {
+    width: 8em;
+    height: 8em;
+  }
+}
+
+.list li img {
   position: absolute;
   border-radius: 30px;
   width: 15em;
   height: 15em;
 }
 
-.lista li img:hover {
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list li img {
+    width: 8em;
+    height: 8em;
+  }
+}
+
+.list li img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.lista li .btn2 {
-  margin: 12% 0% 0% 12%;
+.list li .btn2 {
+  margin: 16% 0% 0% 16%;
   position: absolute;
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .list li .btn2 {
+    margin: 30% 0% 0% 30%;
+  }
 }
 
 .fav-list {

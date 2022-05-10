@@ -1,4 +1,4 @@
-.lista
+.list
 
     margin: 5% 3% 8% 5%
     list-style: none
@@ -6,22 +6,37 @@
     grid-template-columns: repeat(4, 1fr)
     grid-gap: 32px
     grid-auto-rows: minmax(100px, auto)
+    @media screen and (min-width : 300px) and(max-width : 850px)
+        grid-template-columns: repeat(2,1fr)
+        grid-gap: 10px
+        margin: 20% 0% 20% 5%
+        padding: 0
+
     li
         cursor: pointer
         border-radius: 30px
         width: 15em
         height: 15em
+        @media screen and (min-width : 300px) and(max-width : 850px)
+            width: 8em
+            height: 8em
+        
         img
             position: absolute
             border-radius: 30px
             width: 15em
             height: 15em
+            @media screen and (min-width : 300px) and(max-width : 850px)
+                width: 8em
+                height: 8em
             &:hover
                 transform: scale(1.1)
 
         .btn2
-            margin: 12% 0% 0% 12%
+            margin: 16% 0% 0% 16%
             position: absolute
+            @media screen and (min-width : 300px) and(max-width : 850px)
+                margin: 30% 0% 0% 30%
 .fav-list
     display: flex
     flex-direction: column
