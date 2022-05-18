@@ -478,6 +478,7 @@ footer div {
 .btn2 .like {
   position: absolute;
   margin: -24% 6% 0% -30%;
+  pointer-events: none;
 }
 
 .btn2:hover .like {
@@ -541,6 +542,7 @@ footer div {
 .list li .btn2 {
   margin: 16% 0% 0% 16%;
   position: absolute;
+  z-index: 1000;
 }
 
 @media screen and (min-width: 300px) and (max-width: 850px) {
